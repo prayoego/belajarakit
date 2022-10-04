@@ -72,14 +72,11 @@
 @media only screen and (max-width:768px){
 	/* =jumbotron
 -------------------------------------------------------------*/
-.jumbotron.motherboard{
-	padding: 2rem 0 14rem;
-}
 /* =main-materi
 -------------------------------------------------------------*/
-.main-materi.motherboard{
+/*.main-materi.motherboard{
 	margin-top: -14rem;
-}
+}*/
 
 }
 

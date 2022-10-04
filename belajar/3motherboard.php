@@ -36,7 +36,7 @@
 
 	<!-- hero content -->
 	<section class="hero-materi">
-		<div class="jumbotron motherboard">
+		<div class="jumbotron motherboard 2pengenalan-komputer">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-10 col-sm-12">
@@ -147,7 +147,7 @@
 							<div class="materi-content">
 								<!-- gambar/video -->
 								<div class="img-vid margin-b-2">
-									<img src="../images/4perakitan/komponen.png" class="img-fluid" alt="Responsive image"/>
+									<img src="../images/motherboard/Micro-ATX-Motherboard.jpg" class="img-fluid" alt="Responsive image"/>
 									<!-- <img src="../images/motherboard/970A-G43-2-background.png" class="img-fluid" alt="Responsive image"/> -->
 								</div>
 								<!-- end gambar/video -->

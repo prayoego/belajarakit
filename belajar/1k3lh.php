@@ -36,7 +36,7 @@
 
 	<!-- hero content -->
 	<section class="hero-materi">
-		<div class="jumbotron">
+		<div class="jumbotron k3lh">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-10 col-sm-12">
