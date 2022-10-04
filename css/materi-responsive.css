@@ -1,0 +1,119 @@
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media only screen and (min-width:1280px) {
+
+}
+
+@media only screen and (max-width:1280px) {
+	
+}
+
+@media only screen and (max-width:1024px) {
+	
+}
+
+@media only screen and (max-width : 992px){
+
+}
+
+@media only screen and (max-width : 991px){
+	/* =global
+	-----------------------------------------------------------------------------*/
+	.desktop-display{
+		display: none;
+	}
+
+	/* =ilustrasi-gambar
+	-------------------------------------------------------------*/
+	.materi-discussion-content .ilustrasi{
+		max-width: 100%;
+	}
+	/* =tinjauan
+	-------------------------------------------------------------*/
+	.materi-main-content .card.tinjauan-box{
+		display: none;
+	}
+	/* =zigzag
+	-------------------------------------------------------------*/
+	.materi-discussion-content .simbol-k3 .zigzag .zigzag-item{
+		flex-direction: column;
+	}
+	.materi-discussion-content .simbol-k3 .zigzag .zigzag-item.zigzagitem-right .zigzagitem-content{
+		width: 100%;
+		order: 2;
+		margin: 1rem 0 0 0;
+		text-align: center;
+		max-width: 100%;
+	}
+	.materi-discussion-content .simbol-k3 .zigzag .zigzag-item.zigzagitem-right .zigzagitem-content span{
+		font-size: 34pt;
+		top: 435px;
+		left: 101px;
+		display: none;
+	}
+	.materi-discussion-content .simbol-k3 .zigzag .zigzag-item.zigzagitem-right .zigzagitem-graphic{
+		width: 100%;
+		order: 1;
+	}
+	.materi-discussion-content .simbol-k3 .zigzag .zigzag-item.zigzagitem-right .zigzagitem-graphic .zigzag-img{
+		margin: auto;
+	}
+	.materi-discussion-content .simbol-k3 .zigzag .zigzag-item.zigzagitem-left .zigzagitem-content{
+		width: 100%;
+		margin: 1rem 0 0 0;
+		text-align: center;
+		max-width: 100%;
+	}
+	.materi-discussion-content .simbol-k3 .zigzag .zigzag-item.zigzagitem-left .zigzagitem-graphic{
+		width: 100%;
+		
+	}
+
+
+
+}
+
+@media only screen and (max-width:812px){
+
+}
+
+@media only screen and (max-width:768px){
+
+}
+
+@media only screen and (max-width:767px){
+	/* =global
+	-----------------------------------------------------------------------------*/
+	.mobile-list{
+		padding: 0 0 0 1rem;
+	}
+
+	/* =task content
+	-----------------------------------------------------------------------------*/
+
+	/* =aktivitas
+	------------------------------------------------*/
+	.aktivitas .aktivitas-box h4 .garis{
+		display: none;
+	}
+	
+	
+}
+
+@media only screen and (max-width:640px){
+
+}
+
+@media only screen and (max-width:574px){
+
+}
+
+@media only screen and (max-width:480px){
+
+}
+
+@media only screen and (max-width:320px){
+
+}	

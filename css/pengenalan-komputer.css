@@ -1,0 +1,272 @@
+/*!
+* layout.css
+* Copyright 2020 
+* by adie prayoega (@prayoego.adie)
+*/
+
+/* =global
+-----------------------------------------------------------------------------------------------------*/
+/* =text
+-------------------------------------------------------------*/
+.materi-bab-tittle{
+	font-size: 36px;
+	font-family: 'Merriweather', serif;
+	font-weight: 600;
+	margin: 0.5rem 0 1rem;
+	line-height: 2.875rem;
+}
+.materi-subab-tittle{
+	font-family: 'Merriweather', serif;
+	font-weight: 600;
+	margin: 0.8rem 0 1rem;
+	line-height: 2.875rem;
+}
+.materi-point-tittle{
+	font-family: 'Merriweather', serif;
+	color: #212529;
+	font-weight: 500;
+	line-height: 2rem;
+}
+.materi-content-text{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	line-height: 1.875rem;
+	margin-bottom: 1rem;
+}
+.materi-list{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	line-height: 1.875rem;
+	margin-bottom: 1rem;
+	margin-top: -0.5rem;
+	padding: 0 0 0 1.5rem;
+	list-style: disc;
+	color: #f5b06e;
+}
+.materi-list p{
+	color: #212529;
+	margin: 0 0 0 5px;
+}
+.margin-b-1{
+	margin-bottom: 1rem; 
+}
+.margin-b-2{
+	margin-bottom: 2rem; 
+}
+.btn-custom{	
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+	border:0;
+	color: #fff;
+	background-color: #322F56;
+	margin-bottom: 1rem;
+}
+.btn-custom:hover{
+	transform: translateY(-1px);
+	box-shadow: 0 4px 10px rgba(50,50,93,.226),0 1px 3px rgba(0,0,0,.08);
+	color: #fff;
+	background-color: #2F5456;
+}
+.btn-custom:focus{
+	box-shadow: 0 4px 10px rgba(50,50,93,.226),0 1px 3px rgba(0,0,0,.08);
+}
+
+/* =hero-materi
+-------------------------------------------------------------*/
+.hero-materi .jumbotron{
+	background-color: #181818;
+	/*padding: 2rem 0 11rem;*/
+	padding-top: 2rem;
+	border-radius: 0;
+	color: #fff;
+}
+.hero-materi .jumbotron .heromateri-content .kd{
+	list-style: none;
+	padding: 0;
+	margin-bottom: 1rem;
+}
+.hero-materi .jumbotron .heromateri-content .kd .kd-list{	
+	margin-bottom: 1rem;
+}
+.hero-materi .jumbotron .heromateri-content .kd .kd-list p,
+.hero-materi .jumbotron .heromateri-content .kd .kd-list label{
+	margin: 0;
+	color: #fff;
+}
+.hero-materi .jumbotron .heromateri-content .kd .kd-list p label{
+	margin-right: 10px;
+}
+.hero-materi .jumbotron .heromateri-content .kd .kd-list ul{
+	color: #f5b06e;
+	list-style: disc;
+	margin-left: -14px;
+}
+.hero-materi .jumbotron .heromateri-content .kd .kd-list ul p{
+	margin-left: 5px;
+}
+
+/* =main-materi
+-------------------------------------------------------------*/
+
+
+/* =video/gambar
+-------------------------------------------------------------*/
+/*.main-materi{
+
+}*/
+
+/* =tinjauan-box
+-------------------------------------------------------------*/
+.main-materi .card.tinjauan-box{
+	padding: 10px 15px;
+	margin-bottom: 1.5rem;
+}
+.main-materi .card.tinjauan-box ul{
+	list-style: none;
+	padding: 0;
+	margin: 1rem 0;
+}
+.main-materi .card.tinjauan-box ul li{
+	/*padding: 0.5rem 1rem;
+	background-color: #fafafa;*/
+	/*border-radius: 5px;*/
+	margin-bottom: 10px;
+}
+/*.main-materi .card.tinjauan-box ul li:hover{
+	background-color: #f2f2f2;
+}*/
+.main-materi .card.tinjauan-box ul li a{
+	text-decoration: none;
+	color: #000;
+}
+.main-materi .card.tinjauan-box ul li a:hover{
+	background-color: red;
+}
+.main-materi .card.tinjauan-box ul li a .card{
+	border: none;
+}
+.main-materi .card.tinjauan-box ul li a .card .card-body{
+	padding: 0.5rem 1rem;
+}
+.main-materi .card.tinjauan-box ul li a .card .card-body:hover{
+	background-color: #f2f2f2;
+}
+.main-materi .card.tinjauan-box ul li a p{
+	color: #312e51;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;	
+	margin: 0;
+	font-size: 15px;
+}
+
+/* =end materi
+-------------------------------------------------------------*/
+.end-materi{
+	background-color: #f5f2f0;
+	margin: 10rem 0 0 0;	
+}
+
+
+/* =pengenalan-komputer
+-----------------------------------------------------------------------------------------------------*/
+
+/* =hero-content
+-----------------------------------------------------------------------------*/
+/* =jumbotron
+-------------------------------------------------------------*/
+.jumbotron.pengenalan-komputer{
+	/*padding: 2rem 0 19rem;*/
+	padding: 2rem 0;
+}
+
+/* =main-content
+-----------------------------------------------------------------------------*/
+/* =main-materi
+-------------------------------------------------------------*/
+.main-materi.pengenalan-komputer{
+	margin-top: 3rem;
+}
+/* =video/gambar
+-------------------------------------------------------------*/
+.main-materi.pengenalan-komputer .materi-content .img-vid{
+	margin-bottom: 1rem: 
+}
+/* =struktur komputer
+-------------------------------------------------------------*/
+.main-materi.pengenalan-komputer .materi-content .struktur-komputer{
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+.main-materi.pengenalan-komputer .materi-content .struktur-komputer .img-box{
+	width: 100px;
+	margin: auto;
+	padding: 0 0 1rem;
+	min-height: 116px;
+	align-items: center;
+	display: flex;
+}
+/* =bagian hardware
+-------------------------------------------------------------*/
+.main-materi.pengenalan-komputer .materi-content .bagian-hardware{
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.main-materi.pengenalan-komputer .materi-content .bagian-hardware .img-box{
+	padding: 0 0 0.7rem;
+}
+.main-materi.pengenalan-komputer .materi-content .bagian-hardware i{
+	font-size: 40px;
+	color: #69656e;
+}
+/* =komponen komputer
+-------------------------------------------------------------*/
+.main-materi.pengenalan-komputer .materi-content .komponen-zigzag{
+
+}
+.main-materi.pengenalan-komputer .materi-content .komponen-zigzag .zigzag-item{
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+}
+.main-materi.pengenalan-komputer .materi-content .komponen-zigzag .zigzag-left,
+.main-materi.pengenalan-komputer .materi-content .komponen-zigzag .zigzag-right{
+	display: flex;
+	align-items: center;
+	/*margin-top: 2rem;
+	margin-bottom: 2.5rem;*/
+}
+.main-materi.pengenalan-komputer .materi-content .komponen-zigzag .zigzag-left .images-zigzag{
+	width: 50%;
+	display: flex;
+	max-width: 400px;
+	margin-right: 25px;
+	max-height: 250px;
+}
+.main-materi.pengenalan-komputer .materi-content .komponen-zigzag .zigzag-left .content-zigzag{
+	width: 50%;
+	margin-left: 25px;
+}
+.main-materi.pengenalan-komputer .materi-content .komponen-zigzag .zigzag-right .images-zigzag{
+	width: 50%;
+	display: flex;
+	max-width: 400px;
+	margin-left: 25px;
+	max-height: 250px;
+}
+.main-materi.pengenalan-komputer .materi-content .komponen-zigzag .zigzag-right .content-zigzag{
+	width: 50%;
+	margin-right: 25px;
+}
+.main-materi.pengenalan-komputer .materi-content .komponen-zigzag .zigzag-left .images-zigzag img,
+.main-materi.pengenalan-komputer .materi-content .komponen-zigzag .zigzag-right .images-zigzag img{
+	object-fit: contain;
+	max-width: 100%;
+	max-height: 100%;
+}
+.motherboard .list-komponen ul{
+	list-style: none;
+	padding: 0;
+}

@@ -1,0 +1,107 @@
+/*!
+* layout.css
+* Copyright 2020 
+* by adie prayoega (@prayoego.adie)
+*/
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media only screen and (min-width:1280px) {
+
+}
+
+@media only screen and (max-width:1280px) {
+	
+}
+
+@media only screen and (max-width:1024px) {
+	
+}
+
+@media only screen and (max-width : 992px){
+
+}
+
+@media only screen and (max-width : 991px){
+	/* =global
+	-----------------------------------------------------------------------------------------------------*/
+
+	/* =pengenalan-komputer
+	-----------------------------------------------------------------------------------------------------*/
+	/* =komponen komputer
+	-------------------------------------------------------------*/
+
+	.main-materi.pengenalan-komputer .materi-content .komponen-zigzag .zigzag-left,
+	.main-materi.pengenalan-komputer .materi-content .komponen-zigzag .zigzag-right{
+		flex-direction: column;
+	}
+	.main-materi.pengenalan-komputer .materi-content .komponen-zigzag .zigzag-left .images-zigzag{
+		width: 100%;
+		margin-right: 0px;
+		margin-bottom: 1rem;
+	}
+	.main-materi.pengenalan-komputer .materi-content .komponen-zigzag .zigzag-left .content-zigzag{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.main-materi.pengenalan-komputer .materi-content .komponen-zigzag .zigzag-right .images-zigzag{
+		width: 100%;
+		margin-left: 0px;
+		margin-bottom: 1rem;
+		order: 1;
+	}
+	.main-materi.pengenalan-komputer .materi-content .komponen-zigzag .zigzag-right .content-zigzag{
+		width: 100%;
+		margin-right: 0px;
+		order: 2;
+	}
+	/* =main-materi
+	-------------------------------------------------------------*/
+	.main-materi.pengenalan-komputer{
+		margin-top: 0;
+	}
+
+}
+
+@media only screen and (max-width:812px){
+
+}
+
+@media only screen and (max-width:768px){
+
+}
+
+@media only screen and (max-width:767px){
+	
+}
+
+@media only screen and (max-width:640px){
+
+}
+
+@media only screen and (max-width:574px){
+
+}
+
+@media only screen and (max-width:480px){
+	/* =pengenalan-komputer
+	-----------------------------------------------------------------------------------------------------*/
+
+	/* =hero-content
+	-----------------------------------------------------------------------------*/
+	/* =jumbotron
+	-------------------------------------------------------------*/
+	.jumbotron.pengenalan-komputer{
+		padding: 2rem 0 3rem;
+	}
+
+	/* =main-content
+	-----------------------------------------------------------------------------*/
+	
+
+}
+
+@media only screen and (max-width:320px){
+
+}	

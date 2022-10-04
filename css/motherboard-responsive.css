@@ -1,0 +1,105 @@
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media only screen and (min-width:1280px) {
+
+}
+
+@media only screen and (max-width:1280px) {
+	
+}
+
+@media only screen and (max-width:1024px) {
+	
+}
+
+@media only screen and (max-width : 992px){
+
+}
+
+@media only screen and (max-width : 991px){
+	
+	/* =tinjauan
+	-------------------------------------------------------------*/
+	.main-materi.motherboard .card.tinjauan-box{
+		display: none;
+	}
+	/* =zigzag
+	-------------------------------------------------------------*/
+	.motherboard .zigzag .zigzag-item{
+		flex-direction: column;
+	}
+	.motherboard .zigzag .zigzag-item.zigzagitem-right .zigzagitem-content{
+		width: 100%;
+		order: 2;
+		margin: 1rem 0 0 0;
+		text-align: center;
+		max-width: 100%;
+	}
+	/*.motherboard .zigzag .zigzag-item.zigzagitem-right .zigzagitem-content span{
+		font-size: 34pt;
+		top: 435px;
+		left: 101px;
+		display: none;
+	}*/
+	.motherboard .zigzag .zigzag-item.zigzagitem-right .zigzagitem-graphic{
+		width: 100%;
+		order: 1;
+	}
+	.motherboard .zigzag .zigzag-item.zigzagitem-right .zigzagitem-graphic .zigzag-img{
+		margin: auto;
+	}
+	.motherboard .zigzag .zigzag-item.zigzagitem-left .zigzagitem-content{
+		width: 100%;
+		margin: 1rem 0 0 0;
+		text-align: center;
+		max-width: 100%;
+	}
+	.motherboard .zigzag .zigzag-item.zigzagitem-left .zigzagitem-graphic{
+		width: 100%;
+		
+	}
+
+
+
+}
+
+@media only screen and (max-width:812px){
+
+}
+
+@media only screen and (max-width:768px){
+	/* =jumbotron
+-------------------------------------------------------------*/
+.jumbotron.motherboard{
+	padding: 2rem 0 14rem;
+}
+/* =main-materi
+-------------------------------------------------------------*/
+.main-materi.motherboard{
+	margin-top: -14rem;
+}
+
+}
+
+@media only screen and (max-width:767px){
+	
+}
+
+@media only screen and (max-width:640px){
+
+}
+
+@media only screen and (max-width:574px){
+
+}
+
+@media only screen and (max-width:480px){
+
+
+}
+
+@media only screen and (max-width:320px){
+
+}	

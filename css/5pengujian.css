@@ -1,0 +1,52 @@
+/* =global
+-----------------------------------------------------------------------------*/
+.main-materi.pengujian {
+	margin-top: -10rem;
+}
+.main-materi.pengujian .info-tik{
+	/*padding: 0 0 0 1rem;*/
+	margin: 0rem 0 1.5rem 0;
+}
+.main-materi.pengujian .info-tik .box-info{
+	border-left: 5px solid #f5b06e;
+	/*border-right: 5px solid rgba(0,0,0,.125);*/
+	padding: 1rem 1rem 1rem 1.5rem;
+	background: #f5f2f0;
+	border-radius: 8px;
+} 
+.main-materi.pengujian .table p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	margin-bottom: 0;
+}
+.main-materi.pengujian .materi-gambar{
+	max-width: 80%;
+    margin: 2rem auto 1rem auto;
+}
+.main-materi.pengujian .materi-gambar .gambar-tag{
+	list-style: none;
+    padding: 0;
+    display: flex;
+    margin-top: 1rem;
+}
+.main-materi.pengujian .materi-gambar .gambar-tag li{
+	margin-right: 14px;
+}
+.main-materi.pengujian .materi-gambar .gambar-tag li p{
+	color: #666;
+    margin: 0;
+    font-size: 15px;
+}
+
+/*.main-materi.pengujian .table .left-col{
+	background: #f5f2f0;
+	padding-left: 10px;
+
+}
+.main-materi.pengujian .table .left-col p{
+	font-weight: 500;
+	
+}
+.main-materi.pengujian .table .right-col{
+	width: 60%;
+}*/

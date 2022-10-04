@@ -1,0 +1,424 @@
+/* =global
+-----------------------------------------------------------------------------*/
+.icon-box{
+	float: left;
+    height: 60px;
+    margin-right: 12px;
+}
+.footer {
+	background: #0f0e20;
+    padding: 2rem 0 0.5rem;
+}
+.footer .footer-content-text{
+	font-size: 14px;
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.footer-materi{
+	background: #f5f2f0;
+    padding: 2rem 0 0.5rem;
+}
+.footer-materi .footer-content-text{
+	font-size: 14px;
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    color: #212529;
+}
+.no-list-style{
+	list-style: none;
+	padding: 0;
+}
+.point-tittle{
+	font-family: 'Merriweather', serif;
+	color: #212529;
+	font-weight: 500;
+	line-height: 2rem;
+	margin: 0 0 0.5rem;
+}
+.content-text{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	line-height: 1.875rem;
+	margin-bottom: 1rem;
+}
+.content-text-nomargin{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	line-height: 1.875rem;
+}
+.margin-point{
+	margin: 0 0 0.5rem 10px !important;
+}
+.margin-point-none{
+	margin: 0 0 0.5rem !important;
+}
+
+/* =navbar
+-------------------------------------------------------------*/
+.materi-header .navbar-weblearning{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #181818;
+	color: #fff;
+	font-weight: 400;
+	padding: 30px 16px;
+}
+/*.materi-header .navbar-weblearning .left-info{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.materi-header .navbar-weblearning .right-info{
+	display: inline-flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.materi-header .navbar-weblearning .right-info li{
+	font-size: 14px;
+	padding: 8px 20px;
+}
+.materi-header .navbar-weblearning .right-info li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}*/
+.materi-header .navbar-weblearning .left-info{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+.materi-header .navbar-weblearning .left-info li a{
+	text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+.materi-header .navbar-weblearning .left-info li a:hover{
+	font-weight: 600;
+}
+.materi-header .navbar-weblearning .right-info{
+	display: inline-flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.materi-header .navbar-weblearning .right-info li{
+	font-size: 14px;
+	padding: 8px 20px;
+}
+.materi-header .navbar-weblearning .right-info li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+.materi-header .navbar-weblearning .right-info li a:hover{
+	font-weight: 600;
+}
+/* =HERO CONTENT
+-------------------------------------------------------------*/
+.materi-hero-content{
+	margin:-3px 0 0 0;  
+}
+.materi-hero-content .jumbotron{
+	background-color: #181818;
+	padding: 2rem 0 11rem; 
+}
+/* =tittle
+-------------------------------------------------------------*/
+.materi-hero-content .materi-tittle h1{
+	font-size: 36px;
+	font-family: 'Merriweather', serif;
+	color: #fff;
+	font-weight: 600;
+	margin-bottom: 1.5rem;
+}
+.materi-hero-content .materi-tittle p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	margin: 0 0 1rem ;
+	font-size: 16px;
+}
+/* =tujuan
+-------------------------------------------------------------*/
+.materi-hero-content .materi-tujuan .kompetensi-dasar{
+	list-style: none;
+	padding: 0;
+}
+.materi-hero-content .materi-tujuan .kompetensi-dasar p{
+	margin: 0;
+	line-height: 1.875rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #fff;
+}
+.materi-hero-content .materi-tujuan .kompetensi-dasar .indikator{
+	margin-bottom: 1rem;
+	color: #f5b06e;
+	list-style: disc;
+}
+/* =pendahuluan
+-------------------------------------------------------------*/
+.materi-hero-content .materi-pendahuluan h4{
+	font-family: 'Merriweather', serif;
+	color: #fff;
+	font-weight: 600;
+	margin: 0.5rem 0 1rem;
+	line-height: 2.875rem;
+}
+.materi-hero-content .materi-pendahuluan p{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.875rem;
+	font-weight: 300;
+	margin:0 0 1rem;
+}
+
+/* =main content
+-------------------------------------------------------------*/
+.materi-main-content{
+	margin: -10rem 0 1.5rem;
+}
+/* =box-top
+-------------------------------------------------------------*/
+.materi-main-content .video-box{
+	border-radius: 5px;
+}
+.materi-main-content .card.tinjauan-box{
+	padding: 10px 15px;
+}
+/* =tinjauan
+-------------------------------------------------------------*/
+.materi-main-content .card.tinjauan-box h6{
+	font-family: 'Merriweather', serif;	
+	margin: 0;
+}
+.materi-main-content .card.tinjauan-box ul{
+	padding: 0;
+	list-style: none;
+	margin: 1rem 0;
+}
+.materi-main-content .card.tinjauan-box li{
+	margin-bottom: 10px;
+}
+.materi-main-content .card.tinjauan-box li a{
+	color: #000;
+}
+.materi-main-content .card.tinjauan-box li a:hover{
+	text-decoration: none;
+}
+.materi-main-content .card.tinjauan-box li .card{
+	border: none;
+}
+.materi-main-content .card.tinjauan-box li .card-body{
+	padding: 0.5rem 1rem;
+	/*background-color: #FbFbFb;*/
+	border-radius: 0.2rem;
+}
+.materi-main-content .card.tinjauan-box li .card-body:hover{
+	background-color: #f2f2f2;
+}
+.card.tinjauan-box .disable-point{
+	border-left: 5px solid #f5b06e;
+    background: #f5f2f0;
+    pointer-events: none;
+}
+
+.card.tinjauan-box p{
+	color: #312e51;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 15px;
+	
+}
+
+/* =discussion content
+-------------------------------------------------------------*/
+.materi-discussion-content h4{
+	font-family: 'Merriweather', serif;
+	color: #212529;
+	font-weight: 600;
+	margin: 0.5rem 0 1rem 0;
+	line-height: 2.875rem;
+}
+.materi-discussion-content p{
+	color: #212529;
+	font-family: 'Montserrat', sans-serif;
+	/*font-family: 'Signika', sans-serif;*/
+	line-height: 1.875rem;
+	font-weight: 300;
+	margin: 0 0 1rem;
+}
+.materi-discussion-content .info-tik{
+	/*padding: 0 0 0 1rem;*/
+	margin: 0rem 0 1.5rem 0;
+}
+.materi-discussion-content .info-tik .box-info{
+	border-left: 5px solid #f5b06e;
+	/*border-right: 5px solid rgba(0,0,0,.125);*/
+	padding: 1rem 1rem 1rem 1.5rem;
+	background: #f5f2f0;
+	border-radius: 8px;
+} 
+.materi-discussion-content .ilustrasi{
+	max-width: 80%;
+	margin: 2rem auto 1rem auto;
+}
+.materi-discussion-content .ilustrasi .ilustrasi-tag{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	margin-top: 1rem;
+}
+.materi-discussion-content .ilustrasi .ilustrasi-tag li{
+	margin-right: 14px;
+}
+.materi-discussion-content .ilustrasi .ilustrasi-tag li i{
+	color: #666;
+	font-size: 15px
+}
+.materi-discussion-content .ilustrasi .ilustrasi-tag li p{
+	/*font-family: 'Balsamiq Sans', cursive;*/
+	color: #666;
+	margin: 0;
+	font-size: 15px
+}
+.materi-discussion-content .pendahuluan{
+	margin: 0 0 0.5rem 0;
+}
+.materi-discussion-content .definisi-k3{
+	margin: 0.5rem 0 0.5rem 0;
+}
+.materi-discussion-content .dasar-hukum{
+	margin: 0 0 0;
+}
+.materi-discussion-content .k3-sekolah{
+
+}
+.materi-discussion-content .simbol-k3{
+	margin: 0.5rem 0 1rem 0;
+} 
+.materi-discussion-content .k3-sekolah ul,
+.materi-discussion-content .simbol-k3 ul{
+	margin: 0.5rem 0 1rem;
+	color: #f5b06e;
+	list-style: disc;
+}
+.materi-discussion-content .k3-sekolah ul li p,
+.materi-discussion-content .simbol-k3 ul li p{
+	color: #212529;
+	margin: 0 0 0.5rem;
+}
+.materi-discussion-content .simbol-k3 .zigzag .zigzag-item{
+	display: flex;
+	align-items: center;
+	margin: 2rem 0 2rem;
+}
+.materi-discussion-content .simbol-k3 .zigzag .zigzag-item h5{
+	font-family: 'Merriweather', serif;
+	color: #212529;
+	font-weight: 500;
+	line-height: 2.875rem;
+	margin: 0 0 0.5rem;
+}
+.materi-discussion-content .simbol-k3 .zigzag .zigzag-item p{
+	color: #212529;
+	font-family: 'Montserrat', sans-serif;
+	/*font-family: 'Signika', sans-serif;*/
+	line-height: 1.875rem;
+	font-weight: 300;
+	margin: 0;
+}
+.materi-discussion-content .simbol-k3 .zigzag .zigzag-item.zigzagitem-right .zigzagitem-content{
+	width: 50%;
+	margin: 0 25px 0 0;
+	max-width: 350px;	
+	justify-content: center;
+}
+.materi-discussion-content .simbol-k3 .zigzag .zigzag-item.zigzagitem-left .zigzagitem-content{
+	width: 50%;
+	margin: 0 0 0 25px;
+	max-width: 350px;
+	justify-content: center;
+}
+.materi-discussion-content .simbol-k3 .zigzag .zigzag-item.zigzagitem-right .zigzagitem-content span{
+	/*font-family: 'Merriweather', serif;
+	position: absolute;
+	font-size: 65pt;
+	font-weight: 600;
+	opacity: .08;
+	top: 130px;
+	left: 8px;*/
+	display: none;
+}
+.materi-discussion-content .simbol-k3 .zigzag .zigzag-item.zigzagitem-left .zigzagitem-content span{
+	/*font-family: 'Merriweather', serif;
+	position: absolute;
+	font-size: 65pt;
+	font-weight: 600;
+	opacity: .08;
+	top: 371px;
+	left: 278px;*/
+	display: none;
+}
+.materi-discussion-content .simbol-k3 .zigzag .zigzag-item.zigzagitem-right .zigzagitem-graphic,
+.materi-discussion-content .simbol-k3 .zigzag .zigzag-item.zigzagitem-left .zigzagitem-graphic{
+	width: 50%;
+	display: flex;
+	height: 225px;
+	max-width: 350px;	
+}
+.materi-discussion-content .simbol-k3 .zigzag .zigzag-item.zigzagitem-right .zigzagitem-graphic .zigzag-img,
+.materi-discussion-content .simbol-k3 .zigzag .zigzag-item.zigzagitem-left .zigzagitem-graphic .zigzag-img{
+	object-fit: contain;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+}
+
+/* =task content
+-----------------------------------------------------------------------------*/
+.task-content{
+	background-color: #f5f2f0;
+	margin: 10rem 0 0 0;
+}
+.task-content h4{
+	font-family: 'Merriweather', serif;
+	font-weight: 600;
+	line-height: 2.875rem;
+	color: #212529;
+}
+.task-content p{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.875rem;
+	font-weight: 300;
+	color: #212529;
+}
+
+/* =aktivitas
+------------------------------------------------*/
+.aktivitas{
+	margin: -8rem 0 0 0;
+}
+.aktivitas .aktivitas-box{
+	padding: 2rem 1.5rem;
+}
+.aktivitas .aktivitas-box h4{
+	margin: 0;
+}
+.aktivitas .aktivitas-box ul{
+	list-style: decimal;
+	font-family: font-family: 'Montserrat', sans-serif;
+	/*margin: 0.5rem 0 0 0;*/
+}
+.aktivitas .aktivitas-box ul li p{
+	color: #212529;
+	margin:	0 0 0.5rem 10px;
+}

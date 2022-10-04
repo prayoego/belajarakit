@@ -1,0 +1,343 @@
+/*!
+* layout.css
+* Copyright 2020 
+* by adie prayoega (@prayoego.adie)
+*/
+
+/* =CSS Reset : reset default browser style
+-------------------------------------------------------------*/
+
+/* =global
+-----------------------------------------------------------------------------*/
+.point-tittle{
+	font-family: 'Merriweather', serif;
+	color: #212529;
+	font-weight: 500;
+	line-height: 2rem;
+	margin: 0 0 0.5rem;
+}
+.bab-tittle{
+	font-size: 36px;
+	font-family: 'Merriweather', serif;
+	font-weight: 600;
+	color: #322F56;
+	margin: 0.5rem 0 1rem;
+	line-height: 2.875rem;
+}
+.content-text{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	line-height: 1.875rem;
+	margin-bottom: 1rem;
+}
+.content-text-nomargin{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	line-height: 1.875rem;
+}
+.mobile-display{
+	display: none;
+}
+
+/* =navbar
+-------------------------------------------------------------*/
+.hero-content .navbar-weblearning{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #0F0E20;
+	color: #fff;
+	font-weight: 400;
+	padding: 30px 16px;
+}
+.hero-content .navbar-weblearning .left-info{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+.hero-content .navbar-weblearning .left-info li a{
+	text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+.hero-content .navbar-weblearning .left-info li a:hover{
+	font-weight: 600;
+}
+.hero-content .navbar-weblearning .right-info{
+	display: inline-flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.hero-content .navbar-weblearning .right-info li{
+	font-size: 14px;
+	padding: 8px 20px;
+}
+.hero-content .navbar-weblearning .right-info li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+.hero-content .navbar-weblearning .right-info li a:hover{
+	font-weight: 600;
+}
+
+/* =jumbotron
+-------------------------------------------------------------*/
+.hero-content .jumbotron-weblearnig{
+	background-color: #0F0E20;
+	padding: 10rem 0;
+	margin:-3px 0 0 0; 
+	border-radius: 0;
+}
+.hero-content .jumbotron-weblearnig p.tittle{
+	font-size: 36px;
+	font-family: 'Merriweather', serif;
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+}
+.hero-content .jumbotron-weblearnig p.desc{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	text-align: center;
+	font-weight: 300;
+}
+
+/* =alur belajar
+-------------------------------------------------------------*/
+.hero-content .alur-belajar{
+	background-color: #fff;
+	margin: -4.5rem 0 0 0;
+	padding: 3rem 0 4rem 0;
+	border-radius: 5px;
+	box-shadow: 0 0 0 0 rgba(0,0,0,.16), 0 1px 10px 0 rgba(0,0,0,.12);
+	text-align: center;
+}
+.hero-content .alur-belajar .alur-img-box{
+	width: 145px;
+	margin: 0 auto;	
+	min-height: 171px;
+}
+.hero-content .alur-belajar .alur-img-box .alur-img{
+	max-width: 100%;
+}
+/*.hero-content .alur-belajar h5{
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	color: #212529;
+	font-weight: 500;
+	line-height: 2.875rem;
+	margin: 0 0 0.5rem;
+	}*/
+	.hero-content .alur-belajar .desc-alur{
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		margin: 0;
+		font-weight: 300;
+		line-height: 1.875rem;
+	}
+/* =tentang pembelajaran
+-------------------------------------------------------------*/
+.main-content-first .tentang-pembelajaran{
+	margin: 3rem 0 3rem 0;
+}
+
+.main-content-first .tentang-pembelajaran .tentang-pembelajaran-item{	
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	/*flex-direction: column;*/
+}
+.main-content-first .tentang-pembelajaran .tentang-pembelajaran-item .item-left{
+	width: 60%;
+	padding: 0 2rem 0 0;
+}
+.main-content-first .tentang-pembelajaran h1{
+	font-size: 36px;
+	font-family: 'Merriweather', serif;
+	font-weight: 600;
+	color: #322F56;
+	margin: 1rem 0;
+	line-height: 2.875rem;
+}
+.main-content-first .tentang-pembelajaran p{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	line-height: 1.875rem;
+}
+.main-content-first .tentang-pembelajaran a{
+	margin: 1rem 0;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #322F56;
+	border-color: #322F56;
+}
+.main-content-first .tentang-pembelajaran a:hover{
+	box-shadow: 0 0 0 0 rgb(50, 47, 86), 0 1px 10px 0 rgb(50, 47, 86);
+}
+
+.main-content-first .tentang-pembelajaran .tentang-pembelajaran-item .item-right{
+	width: 40%
+}
+.main-content-first .tentang-pembelajaran .tentang-pembelajaran-item .item-right img{
+	object-fit: contain;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+}
+
+/* =cakupan topik
+-------------------------------------------------------------*/
+.main-content-second{
+	border-top: 1px solid #f1f1f1;
+}
+.main-content-second .cakupan-topik{
+	margin: 3rem 0 3rem 0;
+}
+.main-content-second .cakupan-topik .cakupan-list{
+	padding: 3rem 0 4rem;
+	text-align: center;
+}
+.main-content-second .cakupan-topik .tittle-cakupan{
+	font-size: 36px;
+	font-family: 'Merriweather', serif;
+	font-weight: 600;
+	color: #322F56;
+	margin: 0 0 1rem 0;
+	line-height: 2.875rem;
+}
+.main-content-second .cakupan-topik .desc-cakupan{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	line-height: 1.875rem;
+}
+.main-content-second .cakupan-topik .img-cakupan-box{
+	width: 145px;
+	height: 160px;
+	margin: auto;
+	padding: 0 0 1rem;
+	min-height: 145px;
+	align-items: center;
+	display: flex;
+}
+.main-content-second .cakupan-topik .img-cakupan-list{
+	max-width: 100%;
+}
+.main-content-second .cakupan-topik .tittle-cakupan-list{
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	font-weight: 600;
+	line-height: 1.875rem;
+	margin: 0;
+}
+.main-content-second .cakupan-topik .desc-cakupan-list{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	font-weight: 300;
+	line-height: 1.875rem;
+}
+/* =pembahasan
+-------------------------------------------------------------*/
+.main-content-threerd{
+
+}
+.main-content-threerd .pembahasan-zigzag{
+
+} 
+
+.main-content-threerd .pembahasan-zigzag .zigzag-item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-content-threerd .pembahasan-zigzag .zigzag-item.zigzagitem-right .zigzagitem-content{
+	width: 50%;	
+	/*margin-right: 50px;*/
+	/*max-width: 100%*/
+}
+.main-content-threerd .pembahasan-zigzag .zigzag-item.zigzagitem-left .zigzagitem-content{
+	width: 50%;		
+	/*margin-left: 50px;*/
+}
+.main-content-threerd .pembahasan-zigzag .zigzag-item.zigzagitem-right .zigzagitem-graphic,
+.main-content-threerd .pembahasan-zigzag .zigzag-item.zigzagitem-left .zigzagitem-graphic{
+	width: 50%;
+	height: 375px;
+	display: flex;
+	/*max-width: 375px;*/
+}
+.main-content-threerd .pembahasan-zigzag .zigzag-item.zigzagitem-right .zigzagitem-graphic .zigzag-img,
+.main-content-threerd .pembahasan-zigzag .zigzag-item.zigzagitem-left .zigzagitem-graphic .zigzag-img{
+	object-fit: contain;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;	
+}
+
+
+
+/* =pilihan materi
+-------------------------------------------------------------*/
+.main-content-fourth .pilihan-materi{
+	margin: 3rem 0 3rem 0;
+}
+.main-content-fourth .pilihan-materi .tittle-pilihan{
+	font-size: 36px;
+	font-family: 'Merriweather', serif;
+	font-weight: 600;
+	color: #322F56;
+	margin: 0 0 1rem 0;
+	line-height: 2.875rem;
+}
+.main-content-fourth .pilihan-materi .desc-pilihan{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	line-height: 1.875rem;
+}
+.main-content-fourth .pilihan-materi .list-materi{
+	margin-bottom: 1rem;
+}
+.main-content-fourth .pilihan-materi .list-materi a{
+	color: #322F56;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;	
+}
+.main-content-fourth .pilihan-materi .list-materi a:hover{
+	text-decoration: none;
+}
+.main-content-fourth .pilihan-materi .list-materi .card-body{
+	padding: 15px;
+	background-color: #FBFBFB;
+}
+.main-content-fourth .pilihan-materi .sub-list-materi{
+	margin-bottom: 0.5rem;
+}
+.main-content-fourth .pilihan-materi .sub-list-materi a{
+	color: #322F56;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;	
+}
+.main-content-fourth .pilihan-materi .sub-list-materi a:hover{
+	text-decoration: none;
+}
+.main-content-fourth .pilihan-materi .sub-list-materi .card{
+	width: 95%;
+	margin: auto;
+}
+.main-content-fourth .pilihan-materi .sub-list-materi .card-body{
+	padding: 15px;
+	background-color: #FBFBFB;
+}
+.main-content-fourth .pilihan-materi .sub-list-materi.last-list{
+	margin-bottom: 2rem;
+}
+

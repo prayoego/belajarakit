@@ -1,0 +1,122 @@
+/*!
+* layout.css
+* Copyright 2020 
+* by adie prayoega (@prayoego.adie)
+*/
+
+/* =global
+-----------------------------------------------------------------------------------------------------*/
+/* =text
+-------------------------------------------------------------*/
+/* =jumbotron
+-------------------------------------------------------------*/
+.jumbotron.motherboard{
+	padding: 2rem 0 19rem;
+}
+/* =main-materi
+-------------------------------------------------------------*/
+.main-materi.motherboard .materi-gambar{
+	max-width: 80%;
+    margin: 2rem auto 1rem auto;
+}
+.main-materi.motherboard .materi-gambar .gambar-tag{
+	list-style: none;
+    padding: 0;
+    display: flex;
+    margin-top: 1rem;
+}
+.main-materi.motherboard .materi-gambar .gambar-tag li{
+	margin-right: 14px;
+}
+.main-materi.motherboard .materi-gambar .gambar-tag li p{
+	color: #666;
+    margin: 0;
+    font-size: 15px;
+}
+
+.main-materi.motherboard{
+	margin-top: -19rem;
+}
+.motherboard .zigzag .zigzag-item{
+	display: flex;
+	align-items: center;
+	margin: 2rem 0 2rem;
+}
+.motherboard .zigzag .zigzag-item h5{
+	font-family: 'Merriweather', serif;
+	color: #212529;
+	font-weight: 500;
+	line-height: 2.875rem;
+	margin: 0 0 0.5rem;
+}
+.motherboard .zigzag .zigzag-item p{
+	color: #212529;
+	font-family: 'Montserrat', sans-serif;
+	/*font-family: 'Signika', sans-serif;*/
+	line-height: 1.875rem;
+	font-weight: 300;
+	margin: 0;
+}
+.motherboard .zigzag .zigzag-item.zigzagitem-right .zigzagitem-content{
+	width: 50%;
+	margin: 0 25px 0 0;
+	max-width: 350px;	
+	justify-content: center;
+}
+.motherboard .zigzag .zigzag-item.zigzagitem-left .zigzagitem-content{
+	width: 50%;
+	margin: 0 0 0 25px;
+	max-width: 350px;
+	justify-content: center;
+}
+.motherboard .zigzag .zigzag-item.zigzagitem-right .zigzagitem-graphic,
+.motherboard .zigzag .zigzag-item.zigzagitem-left .zigzagitem-graphic{
+	width: 50%;
+	display: flex;
+	height: 225px;
+	max-width: 350px;	
+}
+.motherboard .zigzag .zigzag-item.zigzagitem-right .zigzagitem-graphic .zigzag-img,
+.motherboard .zigzag .zigzag-item.zigzagitem-left .zigzagitem-graphic .zigzag-img{
+	object-fit: contain;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+}
+.motherboard .list-komponen-item{
+	padding: 0;
+	list-style: none;
+}
+.motherboard .list-komponen-item label{
+	padding-right: 10px;
+}
+
+.motherboard .card.tinjauan-box h6{
+	font-family: 'Merriweather', serif;	
+	margin: 0;
+}
+.motherboard .card.tinjauan-box ul{
+	padding: 0;
+	list-style: none;
+	margin: 1rem 0;
+}
+.motherboard .card.tinjauan-box li{
+	margin-bottom: 10px;
+}
+.motherboard .card.tinjauan-box li a{
+	color: #000;
+}
+.motherboard .card.tinjauan-box li a:hover{
+	text-decoration: none;
+}
+.motherboard .card.tinjauan-box li .card{
+	border: none;
+}
+.motherboard .card.tinjauan-box li .card-body{
+	padding: 0.5rem 1rem;
+	/*background-color: #FbFbFb;*/
+	border-radius: 0.2rem;
+}
+.motherboard .card.tinjauan-box li .card-body:hover{
+	background-color: #f2f2f2;
+}
