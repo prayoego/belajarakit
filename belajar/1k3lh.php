@@ -527,7 +527,7 @@
 												Unduh Lembar Kerja berikut ini:
 											</p>
 											<p>
-												<a href="../destination/task/kerja1.docx" target="_blank">
+												<a href="../destination/task/instruksi-kerja(kegiatan1).docx" target="_blank">
 													<button class="btn btn-custom">Lembar Kerja</button>
 												</a>
 											</p>

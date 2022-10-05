@@ -134,7 +134,7 @@
 							<div class="materi-content">
 								<!-- gambar/video -->
 								<div class="img-vid margin-b-2">
-									<img src="../images/5pengujian/ilustrasibeep.png" class="img-fluid" alt="Responsive image"/>
+									<img src="../images/5pengujian/process.png" class="img-fluid" alt="Responsive image"/>
 								</div>
 								<!-- end gambar/video -->
 								<p class="materi-content-text">

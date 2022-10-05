@@ -164,11 +164,11 @@
 									<iframe width="560" height="315" src="https://www.youtube.com/embed/URVdpjb9454" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</div>
 							</div> -->
-							<div class="img-vid margin-b-2">
-									<img src="../images/4perakitan/merakit.png" class="img-fluid" alt="Responsive image"/>
+							<div class="img-vid margin-b-2 mb-5">
+									<img src="../images/4perakitan/merakitvektor2.png" class="img-fluid" alt="Responsive image"/ style="max-width: 92%;">
 								</div>
 							<h5 class="point-tittle" style="margin-top:1.5rem;">
-								Front Panel Komputer
+								Mengenal Front Panel Komputer
 							</h5>
 							<p class="materi-content-text">
 								Front panel merupakan sekumpulan kabel yang menghubungkan antara tombol power atau reset pada casing depan komputer dan motherboard di dalam casing CPU. 

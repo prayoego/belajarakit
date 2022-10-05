@@ -159,7 +159,7 @@
 
 								<!-- gambar/video -->
 								<div class="img-vid margin-b-2">
-									<img src="../images/pengenalan-kom/component-komputer.png" class="img-fluid" alt="Responsive image"/>
+									<img src="../images/pengenalan-kom/istockphoto-506040816-612x612.jpg" class="img-fluid" alt="Responsive image"/>
 								</div>
 								<!-- end gambar/video -->
 
