@@ -21,6 +21,10 @@
 @media only screen and (max-width : 991px){
 	/* =global
 	-----------------------------------------------------------------------------*/
+	.desktop-hidden{
+		display: block;
+	}
+
 	.desktop-display{
 		display: none;
 	}
@@ -69,6 +73,9 @@
 	.materi-discussion-content .simbol-k3 .zigzag .zigzag-item.zigzagitem-left .zigzagitem-graphic{
 		width: 100%;
 		
+	}
+	.responden{
+		padding: 0;
 	}
 
 

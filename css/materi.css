@@ -1,5 +1,58 @@
 /* =global
 -----------------------------------------------------------------------------*/
+.responden{
+	padding: 5rem 0;
+}
+.desktop-hidden{
+	display: none;
+}
+.tinjauan-mobile{
+	background: #f5f2f0;
+} 
+.tinjauan-mobile a{
+	text-decoration: none;
+	color: black;
+}
+.tinjauan-mobile a:hover{
+	text-decoration: none;
+	color: black;
+}
+.tinjauan-mobile .p{
+	margin-bottom: -10px;
+}
+.tinjauan-mobile .card,
+.tinjauan-mobile .subab-tinjauan a .card{
+	margin-bottom: 1rem;
+}
+.tinjauan-mobile .card-body{
+	padding: 15px;
+}
+.tinjauan-mobile .subab-tinjauan .card{
+	width: 98%;
+	margin-left: auto;
+}
+.tinjauan-mobile .subab-tinjauan .disable .card{
+	border-left: 5px solid #f5b06e;
+    background: #eef2f4;
+    pointer-events: none;
+    /*color: #fff;*/
+    border-radius: 4px;
+}
+.tinjauan-mobile .subab-tinjauan .disable .card p{
+	font-weight: 600;
+}
+
+
+.hide-scrollbar::-webkit-scrollbar{
+	display: none;
+}
+.hide-scrollbar{
+	 -ms-overflow-style: none;
+	 scrollbar-width: none;
+
+	 margin-top: 5rem;
+	/* background: black;*/
+}
 .icon-box{
 	float: left;
     height: 60px;

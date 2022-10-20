@@ -19,10 +19,10 @@
 			</ul>
 			<ul class="right-info">
 				<li class="desktop-display">
-					<a href="index.php">HOME</a>
+					<a href="../index.php">HOME</a>
 				</li>
 				<li>
-					<a href="">MATERI</a>
+					<a href="#materi">MATERI</a>
 				</li>
 				<li>
 					<a href="../respond/nilai-produk.php">NILAI</a>
@@ -386,9 +386,11 @@
 						<div class="col-lg-3 col-sm-12">
 							<div class="menu-right desktop-display">
 								<div class="card tinjauan-box">
+									<div>
 									<h5 class="point-tittle mb-0">
-									Tinjauan Materi
-								</h5>
+										Tinjauan Materi
+									</h5>
+									</div>
 									<ul>
 										<li>
 											<a href="1k3lh.php">
@@ -1253,6 +1255,96 @@
 		</div>
 	</section>
 	<!-- end eksplorasi & penugasan -->
+
+	<section class="tinjauan-mobile desktop-hidden" id="materi">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-10 col-sm-12">
+					<h4 class="materi-subab-tittle">
+						Tinjauan Materi
+					</h4>
+					<a href="#kompetensi1" data-toggle="collapse" aria-expanded="false" aria-controls="kompetensi1">
+						<div class="card">
+					  		<div class="card-body">
+								<p class="content-text-nomargin" style="margin-bottom: 0;">
+					    			Kompetensi Dasar 3.1 : K3LH
+								</p>
+						    </div>
+						</div>
+					</a>
+					<div class="collapse subab-tinjauan" id="kompetensi1">
+						<a href="1k3lh.php">
+							<div class="card">
+								<div class="card-body">
+									<p class="content-text-nomargin" style="margin-bottom: 0;">
+						    			Kegiatan 1 (K3LH)
+									</p>
+							    </div>
+							</div>
+						</a>
+					</div>
+					<a>
+						<div class="card">
+					  		<div class="card-body">
+								<p class="content-text-nomargin" style="margin-bottom: 0;">
+					    			Kompetensi Dasar 3.2 : Perakitan Komputer
+								</p>
+						    </div>
+						</div>
+					</a>
+					<div class="subab-tinjauan">
+						<a class="disable">
+							<div class="card">
+								<div class="card-body">
+									<p class="content-text-nomargin" style="margin-bottom: 0;">
+						    			Kegiatan 2 (Pengenalan Komputer)
+									</p>
+							    </div>
+							</div>
+						</a>
+						<a href="3motherboard.php">
+							<div class="card">
+								<div class="card-body">
+									<p class="content-text-nomargin" style="margin-bottom: 0;">
+						    			Kegiatan 3 (Motherboard)
+									</p>
+							    </div>
+							</div>
+						</a>
+						<a href="4front-panel.php">
+							<div class="card">
+								<div class="card-body">
+									<p class="content-text-nomargin" style="margin-bottom: 0;">
+						    			Kegiatan 4 (Merakit Komputer)
+									</p>
+							    </div>
+							</div>
+						</a>
+					</div>
+					<a href="#kompetensi3" data-toggle="collapse" aria-expanded="false" aria-controls="kompetensi3" style="color: black;">
+						<div class="card">
+					  		<div class="card-body">
+								<p class="content-text-nomargin" style="margin-bottom: 0;">
+					    			Kompetensi Dasar 3.3: Pengujian Perakitan Komputer
+								</p>
+						    </div>
+						</div>
+					</a>
+					<div class="collapse subab-tinjauan" id="kompetensi3">
+						<a href="5pengujian.php">
+							<div class="card">
+								<div class="card-body">
+									<p class="content-text-nomargin" style="margin-bottom: 0;">
+						    			Kegiatan 5 (Uji Hasil Merakit)
+									</p>
+							    </div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<section class="footer-materi">
 

@@ -1,4 +1,4 @@
-<section class="footer">
+<section class="footer navbar-fixed-bottom">
 	<div class="container">
 		<p class="footer-content-text">
 			@ 2020 Adie Prayoega <br>

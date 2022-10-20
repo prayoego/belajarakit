@@ -95,6 +95,9 @@
 		height: 375px;		
 		margin-bottom: 0.5rem;
 	}
+	.main-content-first .tentang-pembelajaran .tentang-pembelajaran-item .item-left{
+		padding: 0;
+	}
 
 
 }
@@ -111,7 +114,7 @@
 	/* =navbar
 	-------------------------------------------------------------*/
 	.hero-content .navbar-weblearning .right-info{
-		display: none;
+		/*display: none;*/
 	}
 	/* =jumbotron
 	-------------------------------------------------------------*/

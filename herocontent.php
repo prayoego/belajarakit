@@ -15,7 +15,7 @@
 					<a href="index.php">HOME</a>
 				</li> -->
 				<li>
-					<a href="">MATERI</a>
+					<a href="#main-content-fourth">MATERI</a>
 				</li>
 				<li>
 					<a href="respond/nilai-produk.php">NILAI</a>

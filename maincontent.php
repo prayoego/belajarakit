@@ -17,7 +17,7 @@
 							<p>
 								Website ini memuat segala keperluan belajar, seperti materi, modul, jobsheet dan simulasi
 							</p>
-							<a href="" class="btn btn-primary">Mulai Belajar</a>	
+							<a href="#main-content-fourth" class="btn btn-primary">Mulai Belajar</a>	
 
 						</div>
 						<div class="item-right">
@@ -138,12 +138,12 @@
 										</p>
 									</div>
 									<div class="zigzagitem-graphic">
-										<img class="zigzag-img" src="images/homepage/perkembangan.jpg" alt=""/>
+										<img class="zigzag-img" src="images/homepage/inputoutput2.png" alt=""/>
 									</div>
 								</div>		
 								<div class="zigzag-item zigzagitem-left">
 									<div class="zigzagitem-graphic">
-										<img class="zigzag-img" src="images/homepage/perkembangan.jpg" alt=""/>
+										<img class="zigzag-img" src="images/homepage/proses.png" alt=""/>
 									</div>
 									<div class="zigzagitem-content">										
 										<h5 class="point-tittle">
@@ -164,12 +164,12 @@
 										</p>
 									</div>
 									<div class="zigzagitem-graphic">
-										<img class="zigzag-img" src="images/homepage/perkembangan.jpg" alt=""/>
+										<img class="zigzag-img" src="images/homepage/hirarki.png" alt=""/>
 									</div>
 								</div>
 								<div class="zigzag-item zigzagitem-left">
 									<div class="zigzagitem-graphic">
-										<img class="zigzag-img" src="images/homepage/perkembangan.jpg" alt=""/>
+										<img class="zigzag-img" src="images/homepage/alat.png" alt=""/>
 									</div>
 									<div class="zigzagitem-content">										
 										<h5 class="point-tittle">
@@ -190,12 +190,12 @@
 										</p>
 									</div>
 									<div class="zigzagitem-graphic">
-										<img class="zigzag-img" src="images/homepage/perkembangan.jpg" alt=""/>
+										<img class="zigzag-img" src="images/homepage/safety.png" alt=""/>
 									</div>
 								</div>
 								<div class="zigzag-item zigzagitem-left">
 									<div class="zigzagitem-graphic">
-										<img class="zigzag-img" src="images/homepage/perkembangan.jpg" alt=""/>
+										<img class="zigzag-img" src="images/homepage/process.png" alt=""/>
 									</div>
 									<div class="zigzagitem-content">										
 										<h5 class="point-tittle">
@@ -215,7 +215,7 @@
 	</div>
 </section>
 
-<section class="main-content-fourth">
+<section class="main-content-fourth" id="main-content-fourth">
 	<div class="pilihan-materi">
 		<div class="container">
 			<div class="row justify-content-center">
