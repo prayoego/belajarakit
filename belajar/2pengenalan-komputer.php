@@ -675,7 +675,7 @@
 													SSD
 												</h5>
 												<p class="materi-content-text">
-													Hard Disk (HDD) merupakan komponen komputer yang juga digunakan sebagai media penyimpanan dimana hard disk memiliki peran untuk menyimpan data secara permanen.
+													Solid-state drive (SSD) adalah perangkat penyimpanan generasi baru yang digunakan di komputer. SSD menggantikan hard disk mekanis tradisional dengan menggunakan memori berbasis flash, yang secara signifikan lebih cepat.
 												</p>
 												<button type="button" class="btn btn-custom" data-toggle="modal" data-target="#hdd">
 													Selengkapnya
@@ -691,20 +691,18 @@
 															</div>
 															<div class="modal-body">
 																<p class="materi-content-text">
-																	Seperti yang telah disinggung sebelumnya bahwa Hard Disk (HDD) merupakan salah satu perangkat keras komputer yang juga digunakan sebagai media penyimpanan. 
+																	Baik SSD dan hard drive melakukan pekerjaan yang sama: Mereka mem-boot sistem Anda, dan menyimpan aplikasi dan file pribadi Anda. 
 																</p>
 																<p class="materi-content-text">
-																	Umumnya, di dalam Hard Disk terdapat piringan, dimana piringan itulah yang memiliki peran untuk menyimpan data secara permanen. 
+																	Tetapi setiap jenis penyimpanan memiliki ciri-ciri uniknya masing-masing.
 																</p>
 																<p class="materi-content-text">
-																	Ketika kamu mematikan komputer, data yang telah kamu simpan sebelumnya akan dapat diakses ketika kamu telah menyalakan komputer. 
+																	PC yang dilengkapi SSD akan melakukan booting dalam waktu kurang dari satu menit, sering kali hanya dalam hitungan detik. 
 																</p>
 																<p class="materi-content-text">
-																	Kecuali, jika kamu menghapus data tersebut secara manual atau terkena virus.
+																	Hard drive memerlukan waktu untuk mempercepat spesifikasi pengoperasian, dan akan terus lebih lambat daripada SSD selama penggunaan normal.
 																</p>
-																<p class="materi-content-text">
-																	Jauh berbeda dengan RAM yang hanya dapat menyimpan data atau instruksi selama komputer masih menyala, dengan Hard Disk maka kamu dapat menyimpan data, seperti program, dokumen, gambar, audio atau video secara permanen dalam komputer kamu.
-																</p>
+																
 															</div>
 															<div class="modal-footer">
 																<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
