@@ -78,7 +78,7 @@
 .hero-materi .jumbotron{
 	background-color: #181818;
 	/*padding: 2rem 0 11rem;*/
-	padding-top: 2rem;
+	padding-top: 7rem;
 	border-radius: 0;
 	color: #fff;
 }
@@ -178,7 +178,7 @@
 -------------------------------------------------------------*/
 .jumbotron.pengenalan-komputer{
 	/*padding: 2rem 0 19rem;*/
-	padding: 2rem 0 6rem;
+	padding: 7rem 0 6rem;
 }
 
 /* =main-content

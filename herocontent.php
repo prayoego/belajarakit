@@ -1,7 +1,7 @@
 <section class="hero-content">
 
 	<!-- header -->
-	<nav class="navbar navbar-expand-lg navbar-weblearning">
+	<nav class="navbar navbar-expand-lg navbar-weblearning fixed-top">
 		<div class="container">
 			<ul class="left-info">
 				<li>

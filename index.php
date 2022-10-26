@@ -3,6 +3,7 @@
 <head>
 	<?php include '_meta.php' ?>
 	<title>Belajar Komputer dan Merakitnya</title>
+	<link rel="shortcut icon" href="favicon.ico" />
 	<?php include '_register-css.php' ?>
 </head>
 <body>

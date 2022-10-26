@@ -8,7 +8,7 @@
 <body>
 	<!-- header -->
 	<section class="materi-header">
-		<nav class="navbar navbar-expand-lg navbar-weblearning">
+		<nav class="navbar navbar-expand-lg navbar-weblearning fixed-top">
 			<div class="container">
 				<ul class="left-info">
 				<li>
@@ -22,7 +22,7 @@
 					<a href="../index.php">HOME</a>
 				</li>
 				<li>
-					<a href="#materi">MATERI</a>
+					<a href="#materi" class="desktop-hidden">MATERI</a>
 				</li>
 				<li>
 					<a href="../respond/nilai-produk.php">NILAI</a>
@@ -161,7 +161,7 @@
 						<div class="col-lg-9 col-sm-12">
 							<!-- <div class="card">
 								<div class="video-box embed-responsive embed-responsive-16by9">
-									<iframe width="560" height="315" src="https://www.youtube.com/embed/URVdpjb9454" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/yx7n_MsHqF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</div>
 							</div> -->
 							<div class="img-vid margin-b-2 mb-5">
@@ -462,6 +462,11 @@
 							<p class="materi-content-text">
 								Setelah mengetahui beberapa persiapan dalam perakitan komputer sekarang kamu dinyatakan telah siap merakit sebuah komputer atau PC. Berikut merupakan langkah-langkah merakit komputer.
 							</p>
+							<div class="card mt-4 mb-4">
+								<div class="video-box embed-responsive embed-responsive-16by9">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/yx7n_MsHqF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+							</div>
 							<h5 class="point-tittle">
 								1. Membuka Casing
 							</h5>

@@ -1,7 +1,7 @@
 /* =global
 -----------------------------------------------------------------------------*/
 .responden{
-	padding: 5rem 0;
+	padding: 7rem 0;
 }
 .desktop-hidden{
 	display: none;
@@ -43,16 +43,7 @@
 }
 
 
-.hide-scrollbar::-webkit-scrollbar{
-	display: none;
-}
-.hide-scrollbar{
-	 -ms-overflow-style: none;
-	 scrollbar-width: none;
 
-	 margin-top: 5rem;
-	/* background: black;*/
-}
 .icon-box{
 	float: left;
     height: 60px;

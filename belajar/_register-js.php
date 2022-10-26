@@ -14,3 +14,15 @@
 <script>
 	new WOW().init();
 </script>
+<script type="text/javascript">
+		window.onscroll = function(e) { 
+	    var scrollY = window.pageYOffset || document.documentElement.scrollTop;
+	    var header = document.querySelector('nav');
+
+	    scrollY <= this.lastScroll 
+	      ? header.style.visibility = 'visible'
+	      : header.style.visibility = 'hidden'; 
+
+	    this.lastScroll = scrollY ;
+	}
+</script>

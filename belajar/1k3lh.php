@@ -8,7 +8,7 @@
 <body>
 	<!-- header -->
 	<section class="materi-header">
-		<nav class="navbar navbar-expand-lg navbar-weblearning">
+		<nav class="navbar navbar-expand-lg navbar-weblearning fixed-top">
 			<div class="container">
 				<ul class="left-info">
 				<li>
@@ -22,7 +22,7 @@
 					<a href="../index.php">HOME</a>
 				</li>
 				<li>
-					<a href="#materi">MATERI</a>
+					<a href="#materi" class="desktop-hidden">MATERI</a>
 				</li>
 				<li>
 					<a href="../respond/nilai-produk.php">NILAI</a>
