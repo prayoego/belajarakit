@@ -8,6 +8,14 @@
 -----------------------------------------------------------------------------------------------------*/
 /* =text
 -------------------------------------------------------------*/
+/*.motherboard .table p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	margin-bottom: 0;
+}*/
+
+
+
 /* =jumbotron
 -------------------------------------------------------------*/
 .jumbotron.motherboard{
@@ -69,6 +77,15 @@
 	max-width: 350px;
 	justify-content: center;
 }
+.motherboard .zigzag.fullpage .zigzag-item.zigzagitem-left .zigzagitem-content{
+	width: 70%;
+	margin: 0 0 0 35px;
+	max-width: none !important;
+	justify-content: center;
+}
+.motherboard .zigzag.fullpage .zigzag-item.zigzagitem-left .zigzagitem-content label{
+	margin-right: 10px;
+}
 .motherboard .zigzag .zigzag-item.zigzagitem-right .zigzagitem-graphic,
 .motherboard .zigzag .zigzag-item.zigzagitem-left .zigzagitem-graphic{
 	width: 50%;
@@ -76,12 +93,19 @@
 	height: 225px;
 	max-width: 350px;	
 }
+.motherboard .zigzag.fullpage .zigzag-item.zigzagitem-left .zigzagitem-graphic{
+	width: 30%;
+	display: flex;
+	height: 225px;
+	max-width: none !important;	
+}
 .motherboard .zigzag .zigzag-item.zigzagitem-right .zigzagitem-graphic .zigzag-img,
 .motherboard .zigzag .zigzag-item.zigzagitem-left .zigzagitem-graphic .zigzag-img{
 	object-fit: contain;
 	max-width: 100%;
 	max-height: 100%;
 	margin: auto;
+	min-height: 186px;
 }
 .motherboard .list-komponen-item{
 	padding: 0;

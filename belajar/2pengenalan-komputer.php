@@ -355,7 +355,7 @@
 								<ul class="materi-list">
 									<li>
 										<p>
-											Harddisk
+											SSD
 										</p>
 									</li>
 									<li>
@@ -470,7 +470,7 @@
 									<div class="zigzag-item">
 										<div class="zigzag-left justify-content-center">
 											<div class="images-zigzag">
-												<img src="https://www.nesabamedia.com/wp-content/uploads/2018/06/motherboard.jpg" alt=""/>
+												<img src="../images/motherboard/970A-G43-2.png" alt=""/>
 											</div>
 											<div class="content-zigzag">
 												<h5 class="materi-point-tittle">
@@ -668,11 +668,11 @@
 									<div class="zigzag-item">
 										<div class="zigzag-left justify-content-center">
 											<div class="images-zigzag">
-												<img src="https://www.nesabamedia.com/wp-content/uploads/2018/06/harddisk.jpg" alt=""/>
+												<img src="../images/pengenalan-kom/ssd.png" alt=""/>
 											</div>
 											<div class="content-zigzag">
 												<h5 class="materi-point-tittle">
-													Hard Disk
+													SSD
 												</h5>
 												<p class="materi-content-text">
 													Hard Disk (HDD) merupakan komponen komputer yang juga digunakan sebagai media penyimpanan dimana hard disk memiliki peran untuk menyimpan data secara permanen.

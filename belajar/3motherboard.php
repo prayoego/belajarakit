@@ -232,24 +232,8 @@
 										</div>
 									</div>
 								</div>
-								<h4 class="materi-subab-tittle">
-									Komponen Motherboard
-								</h4>
-								<p class="materi-content-text mb-3">
-									Berikut ini beberapa bagian-bagian pada motherboard:
-								</p>
-								<div class="materi-gambar">
-									<img src="../images/motherboard/mobolist.png" class="img-fluid" alt="Responsive image"/>
-									<ul class="gambar-tag">
-										<li>
-											<i class="fa fa-camera" aria-hidden="true"></i>
-										</li>
-										<li>
-											<p>Komponen Motherboard</p>
-										</li>
-									</ul>
-								</div>
-								<div class="list-komponen">
+								
+								<!-- <div class="list-komponen mt-4">
 								<ul class="list-komponen-item">
 									<li>
 										<h5 class="materi-point-tittle">
@@ -319,7 +303,7 @@
 											Jadi, begitu komputer atau PC menyala, setting sudah sama seperti sebelum dimatikan.
 										</p>
 									</li>
-									<!-- <li>
+									<li>
 										<h5 class="materi-point-tittle">
 											<label>8.</label>BIOS 
 										</h5>
@@ -329,17 +313,18 @@
 										<p class="materi-content-text">
 											Tanpa adanya BIOS, sulit bagi komputer untuk memasang OS dan melakukan modifikasi lainnya.
 										</p>
-									</li> -->
+									</li>
 									<li>
 										<h5 class="materi-point-tittle">
 											<label>8.</label>Input/Output Port
 										</h5>
+
 										<p class="materi-content-text">
 											I/O Ports biasanya digunakan pada luar casing. Dimana I/O Ports adalah tempat kumpulan port sebagai input dan output data komputer yang digunakan untuk menghubungkan perangkat input dan output.
 										</p>										
 									</li>
 								</ul>
-								</div>
+								</div> -->
 							</div>
 						</div>
 						<div class="col-lg-3 col-sm-12">
@@ -395,7 +380,7 @@
 									</li>
 								</ul>
 							</div>
-							<div class="">
+							<div class="desktop-display">
 								<h5 class="point-tittle">
 									Perangkat Belajar
 								</h5>
@@ -419,6 +404,217 @@
 							</div>
 						</div>
 					</div>
+					<div class="row">
+						<div class="col-lg-12 col-sm-12">
+							<h4 class="materi-subab-tittle">
+								Komponen Motherboard
+							</h4>
+							<p class="materi-content-text mb-3">
+								Berikut ini beberapa bagian-bagian pada motherboard:
+							</p>
+							<div class="materi-gambar ilustrasi">
+								<img src="../images/motherboard/mobolist2.png" class="img-fluid" alt="Responsive image"/>
+								<div class="gambar-tag-container">
+									<ul class="gambar-tag ilustrasi-tag">
+											
+										<li>
+											<i class="fa fa-camera" aria-hidden="true">&nbsp;&nbsp;Komponen Motherboard</i> 
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-9 col-sm-12">
+							<div class="zigzag fullpage">
+									<div class="zigzag-item zigzagitem-left">
+										<div class="zigzagitem-graphic">
+											
+												<img class="zigzag-img" src="../images/motherboard/socket-cpu.png" alt=""/>
+											
+										</div>
+										<div class="zigzagitem-content">
+											<h5 class="materi-point-tittle">
+											<label>1.</label>Socket CPU
+											</h5>
+											<p class="materi-content-text">
+												Socket ini merupakan tempat dimana processor dipasang. Jenis socket menentukan processor apa yang bisa dipasang pada socket tersebut. 
+											</p>
+											<span id="dots">...</span>
+											<span id="more">
+											<p class="materi-content-text mt-2">
+												Jadi socket tertentu hanya bisa dipasang processor tertentu saja.
+											</p>
+											<p class="materi-content-text mt-2">
+												Contohnya jika kamu membeli motherboard untuk socket processor jenis AMD maka jangan sekali kamu memasangnya dengan processor intel karena jelas mereka berbeda.
+											</p>
+											</span>
+											<button onclick="myFunction()" id="myBtn" class="badge badge-secondary">Selengkapnya</button>
+										</div>
+									</div>
+									<!-- <div class="zigzag-item zigzagitem-left">
+										<div class="zigzagitem-graphic">
+											<img class="zigzag-img" src="../images/motherboard/Motherboard-Mini-ITX.jpg" alt=""/>
+										</div>
+										<div class="zigzagitem-content">
+											<h5 class="materi-point-tittle">
+												<label>2.</label>North Bridge
+											</h5>
+											<p class="materi-content-text">
+												Berada di dekat socket CPU, fungsi dari kumpulan komponen di north bridge adalah untuk memory controller hub.
+											</p>
+											<span id="dots1">...</span>
+											<span id="more1">
+											<p class="materi-content-text mt-2">
+												Berbagai pusat penyimpanan ada di sini sehingga kerusakan di bagian ini bisa mengacaukan proses penyimpanan.
+											</p>
+											</span>
+											<button onclick="myFunction1()" id="myBtn1" class="badge badge-secondary">Selengkapnya</button>
+										</div> -->
+									<!-- </div> -->
+									<hr>
+									<div class="zigzag-item zigzagitem-left">
+										<div class="zigzagitem-graphic">
+											<img class="zigzag-img" src="../images/motherboard/south-bridge.png" alt=""/>
+										</div>
+										<div class="zigzagitem-content">
+											<h5 class="materi-point-tittle">
+												<label>2.</label>South Bridge
+											</h5>
+											<p class="materi-content-text">
+												Komponen yang tersambung dengan beberapa bagian penting lain seperti konektor SATA, slot PCI, dan BIOS.
+											</p>
+										</div>
+									</div>
+									<hr>
+									<div class="zigzag-item zigzagitem-left">
+										<div class="zigzagitem-graphic">
+											<img class="zigzag-img" src="../images/motherboard/slot-ram.png" alt=""/>
+										</div>
+										<div class="zigzagitem-content">
+											<h5 class="materi-point-tittle">
+												<label>3.</label>Slot RAM (Random Access Memory)
+											</h5>
+											<p class="materi-content-text">
+												Sebagai tempat menyisipkan atau meletakkan RAM. Bentuk slot memory memanjang, sesuai dengan bentuk RAM itu sendiri. 
+											</p>
+											<span id="dots2">...</span>
+											<span id="more2">
+												<p class="materi-content-text mt-2">
+													Pada umumnya ada lebih dari 1 slot memory agar kita bisa memasang beberapa RAM sekaligus.
+												</p>
+											</span>
+											<button onclick="myFunction2()" id="myBtn2" class="badge badge-secondary">Selengkapnya</button>
+										</div>
+									</div>
+									<hr>
+									<div class="zigzag-item zigzagitem-left">
+										<div class="zigzagitem-graphic">
+											<img class="zigzag-img" src="../images/motherboard/slot-ide.png" alt=""/>
+										</div>
+										<div class="zigzagitem-content">
+											<h5 class="materi-point-tittle">
+												<label>4.</label>Slot IDE dan Slot SATA
+											</h5>
+											<p class="materi-content-text">
+												Antara Slot IDE dan Slot SATA memiliki bentuk yang berbeda, namun tetap memiliki fungsi yang sama.
+											</p>
+											<span id="dots3">...</span>
+											<span id="more3">
+												<p class="materi-content-text mt-2">
+													Yakni digunakan sebagai penghubung antara Hardisk atau CD-ROM ke motherboard.
+												</p>
+											</span>
+											<button onclick="myFunction3()" id="myBtn3" class="badge badge-secondary">Selengkapnya</button>
+										</div>
+									</div>
+									<hr>
+									<div class="zigzag-item zigzagitem-left">
+										<div class="zigzagitem-graphic">
+											<img class="zigzag-img" src="../images/motherboard/slot-pci.png" alt=""/>
+										</div>
+										<div class="zigzagitem-content">
+											<h5 class="materi-point-tittle">
+												<label>5.</label>Slot PCI 
+											</h5>
+											<p class="materi-content-text">
+												Slot Peripheral Component Interconnect atau PCI digunakan untuk menambahkan komponen lain dari PC.  
+											</p>
+											<span id="dots4">...</span>
+											<span id="more4">
+												<p class="materi-content-text mt-2">
+													seperti slot kartu untuk LAN, kartu untuk suara, sampai kartu grafik.
+												</p>
+												<p class="materi-content-text mt-2">
+													Jadi, PC yang dimiliki bisa memiliki lebih banyak fungsi.
+												</p>
+											</span>
+											<button onclick="myFunction4()" id="myBtn4" class="badge badge-secondary">Selengkapnya</button>
+										</div>
+									</div>
+									<hr>
+									<div class="zigzag-item zigzagitem-left">
+										<div class="zigzagitem-graphic">
+											<img class="zigzag-img" src="../images/motherboard/m2-socket.png" alt=""/>
+										</div>
+										<div class="zigzagitem-content">
+											<h5 class="materi-point-tittle">
+												<label>6.</label>M.2 Socket
+											</h5>
+
+											<p class="materi-content-text">
+												M.2 yang juga dikenal sebagai Next Generation Form Factor (NGFF), adalah spesifikasi untuk kartu ekspansi komputer <span id="dots7">...</span> 
+												<span id="more7">yang dipasang secara internal dan konektor terkait. 
+													<label style="margin-top: 8px;">M.2 menggantikan standar mSATA, yang menggunakan tata letak kartu Kartu Mini PCI Express fisik dan konektor. </label>
+													<label>Modul M.2 dapat mengintegrasikan beberapa fungsi, seperti: Wi-Fi, Bluetooth, Navigasi Satelit, komunikasi dekat lapangan (NFC) Radio digital Wireless Gigabit Alliance (WiGig), wireless WAN (WWAN) , dan solid-state drive (SSD).</label>
+											</p>
+											<button onclick="myFunction7()" id="myBtn7" class="badge badge-secondary">Selengkapnya</button>
+										</div>
+									</div>
+									<hr>
+									<div class="zigzag-item zigzagitem-left">
+										<div class="zigzagitem-graphic">
+											<img class="zigzag-img" src="../images/motherboard/cmos.png" alt=""/>
+										</div>
+										<div class="zigzagitem-content">
+											<h5 class="materi-point-tittle">
+												<label>7.</label>CMOS 
+											</h5>
+											<p class="materi-content-text">
+												Tempat pada motherboard yang berisi baterai kecil. Dengan baterai ini, 
+												<span id="dots5">...</span> 
+												<span id="more5">
+													beberapa memori pada komputer seperti setting tanggal dan waktu tidak terus diperbaiki setiap hari.
+													<label style="margin-top: 8px;">
+													Jadi, begitu komputer atau PC menyala, setting sudah sama seperti sebelum dimatikan.
+													</label>
+												</span>
+											</p>
+											<button onclick="myFunction5()" id="myBtn5" class="badge badge-secondary">Selengkapnya</button>
+										</div>
+									</div>
+									<hr>
+									<div class="zigzag-item zigzagitem-left">
+										<div class="zigzagitem-graphic">
+											<img class="zigzag-img" src="../images/motherboard/ioport.png" alt=""/>
+										</div>
+										<div class="zigzagitem-content">
+											<h5 class="materi-point-tittle">
+												<label>8.</label>Input/Output Port
+											</h5>
+
+											<p class="materi-content-text">
+												I/O Ports biasanya digunakan pada luar casing. Dimana I/O Ports adalah tempat kumpulan port sebagai <span id="dots6">...</span> 
+												<span id="more6">input dan output data komputer yang digunakan untuk menghubungkan perangkat input dan output.
+											</p>
+											<button onclick="myFunction6()" id="myBtn6" class="badge badge-secondary">Selengkapnya</button>
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -589,5 +785,127 @@
 	</section>
 	<!-- end task -->
 		<?php include '_register-js.php' ?>
+		<script type="text/javascript">
+			function myFunction() {
+			  var dots = document.getElementById("dots");
+			  var moreText = document.getElementById("more");
+			  var btnText = document.getElementById("myBtn");
+
+			  if (dots.style.display === "none") {
+			    dots.style.display = "inline";
+			    btnText.innerHTML = "Selengkapnya";
+			    moreText.style.display = "none";
+			  } else {
+			    dots.style.display = "none";
+			    btnText.innerHTML = "Sembunyikan";
+			    moreText.style.display = "inline";
+			  }
+			}
+			function myFunction1() {
+			  var dots = document.getElementById("dots1");
+			  var moreText = document.getElementById("more1");
+			  var btnText = document.getElementById("myBtn1");
+
+			  if (dots.style.display === "none") {
+			    dots.style.display = "inline";
+			    btnText.innerHTML = "Selengkapnya";
+			    moreText.style.display = "none";
+			  } else {
+			    dots.style.display = "none";
+			    btnText.innerHTML = "Sembunyikan";
+			    moreText.style.display = "inline";
+			  }
+			}
+			function myFunction2() {
+			  var dots = document.getElementById("dots2");
+			  var moreText = document.getElementById("more2");
+			  var btnText = document.getElementById("myBtn2");
+
+			  if (dots.style.display === "none") {
+			    dots.style.display = "inline";
+			    btnText.innerHTML = "Selengkapnya";
+			    moreText.style.display = "none";
+			  } else {
+			    dots.style.display = "none";
+			    btnText.innerHTML = "Sembunyikan";
+			    moreText.style.display = "inline";
+			  }
+			}
+			function myFunction3() {
+			  var dots = document.getElementById("dots3");
+			  var moreText = document.getElementById("more3");
+			  var btnText = document.getElementById("myBtn3");
+
+			  if (dots.style.display === "none") {
+			    dots.style.display = "inline";
+			    btnText.innerHTML = "Selengkapnya";
+			    moreText.style.display = "none";
+			  } else {
+			    dots.style.display = "none";
+			    btnText.innerHTML = "Sembunyikan";
+			    moreText.style.display = "inline";
+			  }
+			}
+			function myFunction4() {
+			  var dots = document.getElementById("dots4");
+			  var moreText = document.getElementById("more4");
+			  var btnText = document.getElementById("myBtn4");
+
+			  if (dots.style.display === "none") {
+			    dots.style.display = "inline";
+			    btnText.innerHTML = "Selengkapnya";
+			    moreText.style.display = "none";
+			  } else {
+			    dots.style.display = "none";
+			    btnText.innerHTML = "Sembunyikan";
+			    moreText.style.display = "inline";
+			  }
+			}
+			function myFunction5() {
+			  var dots = document.getElementById("dots5");
+			  var moreText = document.getElementById("more5");
+			  var btnText = document.getElementById("myBtn5");
+
+			  if (dots.style.display === "none") {
+			    dots.style.display = "inline";
+			    btnText.innerHTML = "Selengkapnya";
+			    moreText.style.display = "none";
+			  } else {
+			    dots.style.display = "none";
+			    btnText.innerHTML = "Sembunyikan";
+			    moreText.style.display = "inline";
+			  }
+			}
+			function myFunction6() {
+			  var dots = document.getElementById("dots6");
+			  var moreText = document.getElementById("more6");
+			  var btnText = document.getElementById("myBtn6");
+
+			  if (dots.style.display === "none") {
+			    dots.style.display = "inline";
+			    btnText.innerHTML = "Selengkapnya";
+			    moreText.style.display = "none";
+			  } else {
+			    dots.style.display = "none";
+			    btnText.innerHTML = "Sembunyikan";
+			    moreText.style.display = "inline";
+			  }
+			}
+			function myFunction7() {
+			  var dots = document.getElementById("dots7");
+			  var moreText = document.getElementById("more7");
+			  var btnText = document.getElementById("myBtn7");
+
+			  if (dots.style.display === "none") {
+			    dots.style.display = "inline";
+			    btnText.innerHTML = "Selengkapnya";
+			    moreText.style.display = "none";
+			  } else {
+			    dots.style.display = "none";
+			    btnText.innerHTML = "Sembunyikan";
+			    moreText.style.display = "inline";
+			  }
+			}
+		</script>
 </body>
 </html>

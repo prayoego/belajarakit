@@ -50,13 +50,18 @@
 	.motherboard .zigzag .zigzag-item.zigzagitem-right .zigzagitem-graphic .zigzag-img{
 		margin: auto;
 	}
-	.motherboard .zigzag .zigzag-item.zigzagitem-left .zigzagitem-content{
+	.motherboard .zigzag .zigzag-item.zigzagitem-left .zigzagitem-content,
+	.motherboard .zigzag.fullpage .zigzag-item.zigzagitem-left .zigzagitem-content{
 		width: 100%;
 		margin: 1rem 0 0 0;
 		text-align: center;
 		max-width: 100%;
 	}
-	.motherboard .zigzag .zigzag-item.zigzagitem-left .zigzagitem-graphic{
+	.motherboard .zigzag.fullpage .zigzag-item.zigzagitem-left .zigzagitem-content{
+		text-align: left !important;
+	}
+	.motherboard .zigzag .zigzag-item.zigzagitem-left .zigzagitem-graphic,
+	.motherboard .zigzag.fullpage .zigzag-item.zigzagitem-left .zigzagitem-graphic{
 		width: 100%;
 		
 	}

@@ -243,14 +243,22 @@
 								</p> -->
 								<div class="ilustrasi">
 									<img src="../images/k3lh/APD.png" class="img-fluid" alt="Responsive image"/>
-									<ul class="ilustrasi-tag">
+									<div class="gambar-tag-container">
+										<ul class="gambar-tag ilustrasi-tag">
+												
+											<li>
+												<i class="fa fa-camera" aria-hidden="true">&nbsp;&nbsp;Alat Pelindung Diri (APD)</i> 
+											</li>
+										</ul>
+									</div>
+									<!-- <ul class="ilustrasi-tag">
 										<li>
 											<i class="fa fa-camera" aria-hidden="true"></i>
 										</li>
 										<li>
 											<p>Alat Pelindung Diri (APD)</p>
 										</li>
-									</ul>
+									</ul> -->
 								</div>
 							</div>
 						</div>
