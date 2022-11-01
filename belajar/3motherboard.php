@@ -169,13 +169,13 @@
 								<p class="materi-content-text">
 									<b>Di Laptop: </b>Jika Anda membuka penutup bawah laptop, Anda akan melihat papan PCB besar yang merupakan motherboard.
 								</p>
-								<h4 class="materi-subab-tittle">
+								<!-- <h4 class="materi-subab-tittle">
 									Jenis-jenis Motherboard
 								</h4>
 								<p class="materi-content-text">
 									Berikut ini beberapa jenis motherboard yang banyak digunakan pada PC dan laptop saat ini:
-								</p>
-								<div class="zigzag">
+								</p> -->
+								<!-- <div class="zigzag">
 									<div class="zigzag-item zigzagitem-left">
 										<div class="zigzagitem-graphic">
 											<img class="zigzag-img" src="../images/motherboard/ATX-Motherboard.jpg" alt=""/>
@@ -231,7 +231,7 @@
 											<img class="zigzag-img" src="../images/motherboard/Motherboard-E-ATX-Asus-ROG.jpg" alt=""/>
 										</div>
 									</div>
-								</div>
+								</div> -->
 								
 								<!-- <div class="list-komponen mt-4">
 								<ul class="list-komponen-item">
@@ -404,8 +404,9 @@
 							</div>
 						</div>
 					</div>
+
 					<div class="row">
-						<div class="col-lg-12 col-sm-12">
+						<div class="col-lg-10 col-sm-12">
 							<h4 class="materi-subab-tittle">
 								Komponen Motherboard
 							</h4>
@@ -431,8 +432,8 @@
 									<div class="zigzag-item zigzagitem-left">
 										<div class="zigzagitem-graphic">
 											
-												<img class="zigzag-img" src="../images/motherboard/socket-cpu.png" alt=""/>
-											
+												<img class="zigzag-img" src="../images/motherboard/Screenshot 2022-10-31 230906.png" alt=""/>
+												
 										</div>
 										<div class="zigzagitem-content">
 											<h5 class="materi-point-tittle">
@@ -474,7 +475,7 @@
 										</div> -->
 									<!-- </div> -->
 									<hr>
-									<div class="zigzag-item zigzagitem-left">
+									<!-- <div class="zigzag-item zigzagitem-left">
 										<div class="zigzagitem-graphic">
 											<img class="zigzag-img" src="../images/motherboard/south-bridge.png" alt=""/>
 										</div>
@@ -487,14 +488,14 @@
 											</p>
 										</div>
 									</div>
-									<hr>
+									<hr> -->
 									<div class="zigzag-item zigzagitem-left">
 										<div class="zigzagitem-graphic">
-											<img class="zigzag-img" src="../images/motherboard/slot-ram.png" alt=""/>
+											<img class="zigzag-img" src="../images/motherboard/business-storage-8-bay-nas-operation-14-568x564.png" alt=""/>
 										</div>
 										<div class="zigzagitem-content">
 											<h5 class="materi-point-tittle">
-												<label>3.</label>Slot RAM (Random Access Memory)
+												<label>2.</label>Slot RAM (Random Access Memory)
 											</h5>
 											<p class="materi-content-text">
 												Sebagai tempat menyisipkan atau meletakkan RAM. Bentuk slot memory memanjang, sesuai dengan bentuk RAM itu sendiri. 
@@ -511,32 +512,27 @@
 									<hr>
 									<div class="zigzag-item zigzagitem-left">
 										<div class="zigzagitem-graphic">
-											<img class="zigzag-img" src="../images/motherboard/slot-ide.png" alt=""/>
+											<img class="zigzag-img" src="../images/motherboard/H01920788a5a04613a88ce264c76bc9bes.jpg" alt=""/>
 										</div>
 										<div class="zigzagitem-content">
 											<h5 class="materi-point-tittle">
-												<label>4.</label>Slot IDE dan Slot SATA
+												<label>3.</label>Slot SATA
 											</h5>
-											<p class="materi-content-text">
-												Antara Slot IDE dan Slot SATA memiliki bentuk yang berbeda, namun tetap memiliki fungsi yang sama.
-											</p>
-											<span id="dots3">...</span>
-											<span id="more3">
 												<p class="materi-content-text mt-2">
-													Yakni digunakan sebagai penghubung antara Hardisk atau CD-ROM ke motherboard.
+													Slot SATA digunakan sebagai penghubung antara Hardisk atau ke motherboard.
 												</p>
 											</span>
-											<button onclick="myFunction3()" id="myBtn3" class="badge badge-secondary">Selengkapnya</button>
+											
 										</div>
 									</div>
 									<hr>
 									<div class="zigzag-item zigzagitem-left">
 										<div class="zigzagitem-graphic">
-											<img class="zigzag-img" src="../images/motherboard/slot-pci.png" alt=""/>
+											<img class="zigzag-img" src="../images/motherboard/images-pci.jfif" alt=""/>
 										</div>
 										<div class="zigzagitem-content">
 											<h5 class="materi-point-tittle">
-												<label>5.</label>Slot PCI 
+												<label>4.</label>Slot PCI 
 											</h5>
 											<p class="materi-content-text">
 												Slot Peripheral Component Interconnect atau PCI digunakan untuk menambahkan komponen lain dari PC.  
@@ -556,11 +552,11 @@
 									<hr>
 									<div class="zigzag-item zigzagitem-left">
 										<div class="zigzagitem-graphic">
-											<img class="zigzag-img" src="../images/motherboard/m2-socket.png" alt=""/>
+											<img class="zigzag-img" src="../images/motherboard/41Uspj9m1oL._AC_SY580_.jpg" alt=""/>
 										</div>
 										<div class="zigzagitem-content">
 											<h5 class="materi-point-tittle">
-												<label>6.</label>M.2 Socket
+												<label>5.</label>M.2 Socket
 											</h5>
 
 											<p class="materi-content-text">
@@ -575,11 +571,11 @@
 									<hr>
 									<div class="zigzag-item zigzagitem-left">
 										<div class="zigzagitem-graphic">
-											<img class="zigzag-img" src="../images/motherboard/cmos.png" alt=""/>
+											<img class="zigzag-img" src="../images/motherboard/btr.jpg" alt=""/>
 										</div>
 										<div class="zigzagitem-content">
 											<h5 class="materi-point-tittle">
-												<label>7.</label>CMOS 
+												<label>6.</label>CMOS 
 											</h5>
 											<p class="materi-content-text">
 												Tempat pada motherboard yang berisi baterai kecil. Dengan baterai ini, 
@@ -601,7 +597,7 @@
 										</div>
 										<div class="zigzagitem-content">
 											<h5 class="materi-point-tittle">
-												<label>8.</label>Input/Output Port
+												<label>7.</label>Input/Output Port
 											</h5>
 
 											<p class="materi-content-text">
@@ -614,7 +610,179 @@
 								</div>
 						</div>
 					</div>
-					
+					<div class="row">
+						<div class="col-lg-9 col-sm-12">
+							<h4 class="materi-subab-tittle">
+								Cara Memilih Motherboard
+							</h4>
+							<p class="materi-content-text">
+								Memilih motherboard adalah bagian sangat penting saat merakit PC, pastikan kalian terlebih dahulu memahami spesifikasi teknis dari motherboard yang akan dipilih. 
+							</p>
+							<p class="materi-content-text">
+								Berikut hal-hal yang perlu diperhatikan dalam pemilihan sebuah motherboard.
+							</p>
+							<h5 class="materi-subab-tittle">
+								#1 Tentukan Chipset / Processor yg digunakan
+							</h5>
+							<p class="materi-content-text">
+								Entah berencana ingin memilih chipset AMD atau Intel, pastikan chipset tersebut didukung oleh soket pada motherboard.
+							</p>
+							<p class="materi-content-text">
+								Karena, chipset yang akan digunakan nanti harus dipasang dalam soket ini. 
+							</p>
+							<p class="materi-content-text">
+								Jika, chipset yang akan digunakan tidak cocok dengan soket dalam motherboard, sudah pasti sistem komputer tidak akan dapat dihidupkan.
+							</p>
+							<p class="materi-content-text">
+								Perlu kalian ketahui juga, suatu soket processor hanya dapat digunakan untuk satu generasi processor. 
+							</p>
+							<p class="materi-content-text">
+								Oleh karena itu, saat memilih motherboard pastikan punya soket yang sesuai atau kompatibel dengan chipset yang akan dipasang.
+							</p>
+							<p class="materi-content-text">
+								Bagaimana cara mengetahui soket chipset yang dimiliki oleh motherboard? Mudah saja, tinggal cari di label spesifikasinya.
+							</p>
+							<p class="materi-content-text">
+								Biasanya ada di kardus paket penjualan, buku manual, brosur atau info di website resmi, dan bahkan dalam motherboardnya sendiri juga sudah tertulis label jenis soket yang tersedia.
+							</p>
+							<p class="materi-content-text">
+								Pilihan chipset yang sering digunakan:
+							</p>
+							<div class="zigzag">
+								<div class="zigzag-item zigzagitem-left">
+									<div class="zigzagitem-graphic">
+										<img class="zigzag-img" src="../images/motherboard/58568d224f6ae202fedf2720.png" alt=""/>
+									</div>
+									<div class="zigzagitem-content">
+										<h5>
+											Intel
+										</h5>
+										<p>	
+											Jenis processor yang dikembangkan oleh Intel Corporation, processor yang paling populer dan banyak digunakan pada laptop atau komputer.
+										</p>
+									</div>
+								</div>
+								<hr>
+								<div class="zigzag-item zigzagitem-right">
+									<div class="zigzagitem-content">
+										<h5>
+											Advance Micro Device (AMD)
+										</h5>
+										<p>	
+											AMD dikenal sebagai vendor terbesar yang memproduksi processor dengan kualitas yang sama baiknya dengan Intel namun dengan harga yang lebih terjangkau.
+										</p>
+									</div>
+									<div class="zigzagitem-graphic">
+										<img class="zigzag-img" src="../images/motherboard/731984.png" alt=""/>
+									</div>
+								</div>
+							</div>
+							<p class="materi-content-text">
+								Kedua chipset / processor di atas sama baiknya, ada plus dan minusnya. Tinggal sesuaikan kebutuhan dan budget yang dimiliki.
+							</p>
+							<h5 class="materi-point-tittle">
+								#2 Merk Motherboard terbaik?
+							</h5>
+							<p class="materi-content-text">
+								Ada banyak produsen/merk motherboard yang beredar di pasaran. Misalnya ASRock, ASUS, Gigabyte, MSI, Biostar, dan lainnya. Lalu, manakah merk motheboard yang terbaik?
+							</p>
+							<p class="materi-content-text">
+								Sebetulnya, tidak ada acuan khusus mengenai merk motherboard yang paling bagus atau terbaik. 
+							</p>
+							<p class="materi-content-text">
+								Semua merk atau brand motherboard pasti memiliki kelebihan dan kekurangan masing-masing. 
+							</p>
+							<p class="materi-content-text">
+								Setiap vendor akan selalu berusaha mengeluarkan varian produknya sesuai keinginan konsumen.
+							</p>
+							<p class="materi-content-text">
+								Tentukan motherboard yang spesifikasinya sesuai dengan kebutuhan dan budget kalian.
+							</p>
+							<h5 class="materi-point-tittle">
+								#Pastikan Ukurannya cocok dengan Case CPU
+							</h5>
+							<p class="materi-content-text">
+								Hal yang agak sepele tapi sebetulnya penting juga. Beberapa ukuran motherboard yang tersedia:
+							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-9 col-sm-12">
+							
+							<div class="materi-gambar ilustrasi">
+								<img src="../images/motherboard/jenismobo.jpg" class="img-fluid" alt="Responsive image"/>
+								<div class="gambar-tag-container">
+									<ul class="gambar-tag ilustrasi-tag">
+											
+										<li>
+											<i class="fa fa-camera" aria-hidden="true">&nbsp;&nbsp;Ukuran Motherboard</i> 
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-9 col-sm-12">
+							<p class="materi-content-text">
+								Ukuran motherboard desktop yang umum di pasaran yaitu 30,5 cm x 24,4 cm (biasa dikenal ukuran ATX/standar) dan 24,4 cm x 24,4 cm (ukuran Micro ATX/M-ATX). 
+							</p>
+							<p class="materi-content-text">
+								Saat akan memilih motherboard, pastikan ukurannya sesuai dengan case yang ada.
+							</p>
+							<p class="materi-content-text">
+								Jika belum memiliki case, maka nanti case tersebut harus menyesuaikan dengan ukuran motherboard yang akan dipilih.
+							</p>
+							<h4 class="materi-subab-tittle">
+								Contoh Kasus
+							</h4>
+							<p class="materi-content-text">
+								Kalian ingin membangun komputer dengan processor intel core i5 10400 (generasi 10), processor ini memliki spesifikasi:
+							</p>
+							<ul class="materi-list">
+								<li>
+									<p class="content-text-nomargin">
+										6 core 12 thread (Hyper Threading)
+									</p>
+								</li>
+								<li>
+									<p class="content-text-nomargin">
+										Clockspeed 2.9 GHz (Turbo Boost hingga 4.3 GHz)
+									</p>
+								</li>
+								<li>
+									<p class="content-text-nomargin">
+										DDR4-2666
+									</p>
+								</li>
+								<li>
+									<p class="content-text-nomargin" style="font-weight: 600!important;">
+										Soket LGA 1200
+									</p>
+								</li>
+								<li>
+									<p class="content-text-nomargin">
+										IGP Inteh UHD Graphic 630
+									</p>
+								</li>
+							</ul>
+							<p class="materi-content-text">
+								Karena processor yang digunakan adalah intel i5 10400, jadi motherboard yang digunakan adalah motherboard khusus processor intel dengan soket LGA 1200
+							</p>
+							<div class="zigzag">
+								<div class="zigzag-item zigzagitem-right">
+									<div class="zigzagitem-content">
+										<p class="materi-content-text">
+											Contohnya seperti motherboard keluaran MSI dengan seri B460M berikut ini:
+										</p>
+									</div>
+									<div class="zigzagitem-graphic">
+										<img class="zigzag-img" src="../images/motherboard/Micro-ATX-Motherboard.jpg" alt=""/>
+									</div>
+								</div>
+							</div>
+						</div> 
+					</div>
 				</div>
 			</div>
 		</div>
