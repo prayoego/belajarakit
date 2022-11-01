@@ -680,7 +680,7 @@
 							<p class="materi-content-text">
 								Kedua chipset / processor di atas sama baiknya, ada plus dan minusnya. Tinggal sesuaikan kebutuhan dan budget yang dimiliki.
 							</p>
-							<h5 class="materi-point-tittle">
+							<h5 class="materi-subab-tittle">
 								#2 Merk Motherboard terbaik?
 							</h5>
 							<p class="materi-content-text">
@@ -698,8 +698,8 @@
 							<p class="materi-content-text">
 								Tentukan motherboard yang spesifikasinya sesuai dengan kebutuhan dan budget kalian.
 							</p>
-							<h5 class="materi-point-tittle">
-								#Pastikan Ukurannya cocok dengan Case CPU
+							<h5 class="materi-subab-tittle">
+								#3 Pastikan Ukurannya cocok dengan Case CPU
 							</h5>
 							<p class="materi-content-text">
 								Hal yang agak sepele tapi sebetulnya penting juga. Beberapa ukuran motherboard yang tersedia:
